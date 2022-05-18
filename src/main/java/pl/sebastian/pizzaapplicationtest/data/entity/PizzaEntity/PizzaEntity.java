@@ -35,4 +35,8 @@ public class PizzaEntity {
     public void setSizes(Set<SizeEntity> sizes) {
         this.sizes = sizes;
     }
+
+    public int getId() {
+        return id;
+    }
 }

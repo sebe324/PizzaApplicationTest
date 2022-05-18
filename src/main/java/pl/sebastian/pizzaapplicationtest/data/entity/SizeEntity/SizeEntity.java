@@ -46,4 +46,8 @@ public class SizeEntity {
     public void setPizza(PizzaEntity pizza) {
         this.pizza = pizza;
     }
+
+    public int getId() {
+        return id;
+    }
 }
